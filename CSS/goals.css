@@ -1,0 +1,42 @@
+/* top banner */
+.goal-header {
+  margin-top: 5px;
+  padding: 2.5cm;
+    background: url("../media/background/SDG___16.jpg") no-repeat center center;
+    opacity: 0.9;
+    background-color: black;
+  }
+
+/* Style table */
+table, th, td {
+  border-collapse: collapse;
+  padding: 2px;
+  border: 1px solid #0E121C;
+  margin: 10px;
+  background-color: rgb(237, 237, 237);
+}
+
+
+/* Style the fonts */
+th, td {
+  font-family:"Quicksand", sans-serif;
+  text-align: justify;
+  padding: 10px;
+}
+
+th{
+  padding:10px;
+  font-size: 20px;
+  background-color: #12203D;
+  color: rgba(255, 255, 255, 0.982);
+}
+
+/*responsive layout */
+@media screen and (max-width:600px) {
+
+  /* fonts */
+  th, td {
+    font-size: smaller;
+  }
+}
+
